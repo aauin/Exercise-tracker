@@ -1,0 +1,98 @@
+body {
+  background-color:darkslateblue;
+  font-family: Arial;
+  font-size: 16px;
+  color:blanchedalmond;
+  margin-top: 16px;
+  padding: 32px;
+}
+
+a {
+  color:darkorange;
+  text-align: center;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  color:rgb(249, 180, 6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color:white;
+  font-family: Georgia;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+tr {
+  font-size: 30px;
+  color:gold;
+  border: 2px solid rgb(166, 164, 73);
+  padding: 10px;
+}
+
+th {
+  font-size: 30px;
+  color:rgb(208, 96, 71);
+  border: 2px solid rgb(236, 234, 103);
+  padding: 10px;
+}
+
+td {
+  font-size: 30px;
+  color:blanchedalmond;
+  border: 2px solid rgb(202, 200, 89);
+  padding: 10px;
+}
+
+.list-container {
+  border: 6px solid rgb(0, 255, 136);
+  padding: 32px;
+}
+
+fieldset {
+  font-family: Arial;
+  color:blanchedalmond;
+  margin-top: 16px;
+  padding: 32px;
+  text-align: center;
+}
+
+legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+}
+
+input[type="text"] {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.3846153846153846;
+  padding: 0;
+  margin: 2px 0 0 5px;
+  border-width: 0;
+  width: 380px;
+}
+
+button {
+  background-color:aqua; 
+  font-family: Arial;
+  border: none;
+  color:midnightblue;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
